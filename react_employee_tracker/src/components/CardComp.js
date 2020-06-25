@@ -1,16 +1,12 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
 const CardComp = props => {
     return (
         <div>
-            
+            <span>{props.firstName}</span>
+            <span>{props.lastName}</span>
         </div>
     )
-}
-
-CardComp.propTypes = {
-
 }
 
 export default CardComp
